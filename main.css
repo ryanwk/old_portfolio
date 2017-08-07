@@ -82,42 +82,23 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
-#hero, #TThero {
+#hero {
   display: table;
   width: 100%;
   height: 100vh;
   background: url(../img/hero-bg.jpg) top center fixed;
   background-size: cover;
 }
-#TThero {
-  display: table;
-  width: 100%;
-  height: 100vh;
-  background: url(../img/tictactoePic.jpg) top center fixed;
-  background-size: cover;
+
+#hero .hero-logo {
+  margin: 20px;
 }
 
-#hero, #TThero .hero-logo {
-  margin: 20px;
-}
-#TThero .hero-logo {
-  margin: 20px;
-}
-#hero, #TThero .hero-logo img {
+#hero .hero-logo img {
   max-width: 100%;
 }
-#TThero .hero-logo img {
-  max-width: 100%;
-}
-#hero, #TThero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
-  display: table-cell;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  vertical-align: middle;
-}
-#TThero .hero-container {
+
+#hero .hero-container {
   background: rgba(0, 0, 0, 0.8);
   display: table-cell;
   margin: 0;
@@ -126,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
-#hero, #TThero h1 {
+#hero h1 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   line-height: 48px;
@@ -135,33 +116,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero, #TThero h1 {
+  #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero, #TThero h2 {
+#hero h2 {
   color: #999;
   margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-  #hero, #TThero h2 {
+  #hero h2 {
     font-size: 24px;
     line-height: 26px;
     margin-bottom: 30px;
   }
-  #hero, #TThero h2 .rotating {
+  #hero h2 .rotating {
     display: block;
   }
 }
 
-#hero, #TThero .rotating > .animated {
+#hero .rotating > .animated {
   display: inline-block;
 }
 
-#hero, #TThero .actions a {
+#hero .actions a {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -174,24 +155,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
-#hero, #TThero .btn-get-started {
+#hero .btn-get-started {
   background: #03C4EB;
   border: 2px solid #03C4EB;
   color: #fff;
 }
 
-#hero, #TThero .btn-get-started:hover {
+#hero .btn-get-started:hover {
   background: none;
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero, #TThero .btn-services {
+#hero .btn-services {
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero, #TThero .btn-services:hover {
+#hero .btn-services:hover {
   background: #03C4EB;
   border: 2px solid #03C4EB;
 }
@@ -505,9 +486,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container {
   background: url(../img/about-img.jpg) left top no-repeat;
 }
-#ticTacToeAbout .about-container {
-  background: url(../img/tictactoePic.jpg) left top no-repeat;
-}
+
 #about .about-content {
   background: #fff;
 }
