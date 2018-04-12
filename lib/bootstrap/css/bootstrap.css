@@ -5962,6 +5962,7 @@ button.close {
   margin-left: 0;
 }
 .modal-scrollbar-measure {
+  color: red;
   position: absolute;
   top: -9999px;
   width: 50px;
