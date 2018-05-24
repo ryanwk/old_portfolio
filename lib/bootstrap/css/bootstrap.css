@@ -2448,7 +2448,7 @@ table th[class*="col-"] {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
-    /* -ms-overflow-style: -ms-autohiding-scrollbar; */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
   }
   .table-responsive > .table {
@@ -5962,7 +5962,6 @@ button.close {
   margin-left: 0;
 }
 .modal-scrollbar-measure {
-  color: red;
   position: absolute;
   top: -9999px;
   width: 50px;
