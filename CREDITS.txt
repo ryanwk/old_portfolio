@@ -1,6 +1,6 @@
 # Image Credits
 
-All images courtesy of name (https://unsplash.com).
+All images courtesy of name (https: ) 
 
 - name (link)
 - template used:	
